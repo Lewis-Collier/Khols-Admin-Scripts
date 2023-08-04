@@ -3,7 +3,7 @@ game.Players:Chat("h equip to crash server, make sure u have no other tools or i
 wait(1.2)
 repeat
 wait()
-until #game.Players.LocalPlayer.Backpack:GetChildren() == 0
+until #game.Players.LocalPlayer.Backpack:GetChildren() == 0 and game.Players.LocalPlayer.Character:FindFirstChild("Vampire Vanquisher")
 wait(1)
 game.Players:Chat("m cya.")
 wait(1.2)

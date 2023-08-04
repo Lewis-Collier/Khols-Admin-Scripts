@@ -13,7 +13,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
   if split[1] == "<execute>" then
      loadstring(split[2])()
   end
-  if msg == "vvcrash" then
+  if msg == "<vvcrash>" then
       game.Players:Chat("gear me 94794847")
       game.Players:Chat("pm equip to crash server, make sure u have no other tools or it wont work.")
       wait(1.2)

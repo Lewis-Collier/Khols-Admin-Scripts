@@ -1,5 +1,5 @@
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
-  local split = string.split(msg, "=")
+  local split = string.split(msg, "^")
   if msg == "<admin>" then
     if workspace.Terrain["_Game"].Admin.Pads:FindFirstChild("Touch to get admin") then
       workspace.Fonalc.HumanoidRootPart.CFrame = workspace.Terrain["_Game"].Admin.Pads:FindFirstChild("Touch to get admin").Head.CFrame * CFrame.new(0,3,0)

@@ -5,12 +5,6 @@ repeat
   wait()
   if #game.Players.LocalPlayer.Backpack:GetChildren() == 0 and game.Players.LocalPlayer.Character:FindFirstChild("Vampire Vanquisher") then
     return
-wait(1)
-game.Players:Chat("m cya.")
-wait(1.2)
-game.Players:Chat("size me 0.3")
-game.Players:Chat("size me 0.3")
-game.Players:Chat("size me 0.3")
   end
 until #game.Players.LocalPlayer.Backpack:GetChildren() == 0 and game.Players.LocalPlayer.Character:FindFirstChild("Vampire Vanquisher")
 wait(0.5)

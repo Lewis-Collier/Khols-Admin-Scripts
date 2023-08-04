@@ -3,12 +3,9 @@ game.Players:Chat("h equip to crash server, make sure u have no other tools or i
 wait(1.2)
 repeat
   wait()
-  if #game.Players.LocalPlayer.Backpack:GetChildren() == 0 and not game.Players.LocalPlayer.Character:FindFirstChild("Vampire Vanquisher") then
-    return
-  end
-until #game.Players.LocalPlayer.Backpack:GetChildren() == 0 and game.Players.LocalPlayer.Character:FindFirstChild("Vampire Vanquisher")
+until #game.Players.LocalPlayer.Backpack:GetChildren() == 0 and game.Players.LocalPlayer.Character:FindFirstChild("VampireVanquisher") --has anti-vv detector.
 wait(0.5)
-if #game.Players.LocalPlayer.Backpack:GetChildren() == 0 and game.Players.LocalPlayer.Character:FindFirstChild("Vampire Vanquisher") then
+if #game.Players.LocalPlayer.Backpack:GetChildren() == 0 and game.Players.LocalPlayer.Character:FindFirstChild("VampireVanquisher") then
     wait(1)
     game.Players:Chat("m cya.")
     wait(1.2)

@@ -31,7 +31,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
         game.Players:Chat("blind all")
     end
   end
-    if msg == "oscrash" then
+    if msg == "<oscrash>" then
       game.Players:Chat("gear me 92628079")
       while wait() do
         game.Players:Chat("unsize me")

@@ -5,7 +5,7 @@ repeat
 wait()
 until #game.Players.LocalPlayer.Backpack:GetChildren() == 0
 wait(1)
-game.Players:Chat("m say bye to ur server, get this script at bit.ly/khol-crasher")
+game.Players:Chat("m say bye to ur server, get this script at bit.ly/khols-crasher")
 wait(0.8)
 game.Players:Chat("size me 0.3")
 game.Players:Chat("size me 0.3")

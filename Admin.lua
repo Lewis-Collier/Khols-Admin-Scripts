@@ -16,7 +16,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 end)
 while wait() do
   if game.Players.PlayerAdded then
-   allplr = GetPlayers:GetPlayers()
+   allplr = game.Players:GetPlayers()
   end
   for i, player in pairs(allplr) do
    if player.Character then

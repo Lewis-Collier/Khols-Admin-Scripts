@@ -23,11 +23,18 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
       wait(0.5)
       if #game.Players.LocalPlayer.Backpack:GetChildren() == 0 and game.Players.LocalPlayer.Character:FindFirstChild("VampireVanquisher") then
         wait(1)
-        game.Players:Chat("m cya.")
+        game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n Error")
         wait(1.2)
         game.Players:Chat("size me 0.3")
         game.Players:Chat("size me 0.3")
         game.Players:Chat("size me 0.3")
+        game.Players:Chat("blind all")
     end
   end
+    if msg == "oscrash" then
+      game.Players:Chat("gear me 92628079")
+      while wait() do
+        game.Players:Chat("unsize me")
+      end
+    end
 end)
